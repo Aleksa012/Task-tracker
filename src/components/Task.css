@@ -1,0 +1,54 @@
+.card {
+  height: 8rem;
+  width: 100%;
+  background-color: aliceblue;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 2rem #000;
+}
+
+.wrapper {
+  position: relative;
+  height: 1rem;
+  width: 10rem;
+}
+
+.bar {
+  position: absolute;
+  height: 1rem;
+  width: 10rem;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #999;
+}
+
+.bar-fill {
+  border: none;
+  width: 1rem;
+  background-color: red;
+  transition: all 0.3s;
+}
+.bar-fill_half {
+  border: none;
+  width: 5rem;
+  background-color: orange;
+  transition: all 0.3s;
+}
+.bar-fill_full {
+  border: none;
+  width: 10rem;
+  background-color: green;
+  transition: all 0.3s;
+}
+
+.text {
+  background-color: #fff;
+  border-top: 1px solid #000;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  max-height: 4.5rem;
+  height: 4.5rem;
+  word-break: break-word;
+  text-align: left;
+}
