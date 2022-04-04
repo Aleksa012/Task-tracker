@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-
-import Task from "./Task";
+import React from "react";
 
 function Board(props) {
   function drop(e) {
